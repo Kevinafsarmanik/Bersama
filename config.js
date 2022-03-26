@@ -44,7 +44,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '© All Team Bot Discussion'
+  var sticker_author = '© Kyraa-MD'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -65,7 +65,7 @@ global.author = sticker_author
 const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
-  var colong_name = '© All Team Bot Discussion'
+  var colong_name = '© kyraa-MD'
   var colong_author = 'Ciss 📸'
  } else {
   var colong_name = ctickerpack.cpackname
@@ -83,28 +83,28 @@ global.pclg = colong_name
 global.aclg = colong_author
 //======================================//
 
-global.wm = '© All Team Bot Discussion'
+global.wm = '© vn•code'
 global.ucpn = ''
 
 //================= Url =================//
-global.linkgc = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
-global.linkig = 'https://www.instagram.com/p/CH1A1c9J5pY/?utm_medium=copy_link'
+global.linkgc = 'https://chat.whatsapp.com/JWVl9J1sIxMG9PwyIMyQN6'
+global.linkig = 'https://instagram.com/kevinafsar_?utm_medium=copy_link'
 global.linkyt = ''
-global.linkfb = 'https://fb.watch/aYv0jAffAO'
-global.web = 'https://raselcomel.github.io'
-global.web1 = 'https://anu.rasell.repl.co'
+global.linkfb = 'https://www.facebook.com/kevin.afsar.90'
+global.web = 'https://kevinafsarmanik.github.io/nino-wife.github.io/'
+global.web1 = 'https://kevinafsarmanik.github.io/nino-wife.github.io/'
 
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = '© All Team Bot Discussion'
+global.bodlink = '© Kyraa-MD'
 
 //========= Url Template Button =========//
 global.dtu = 'Group Bot WhatsApp'
-global.urlnya = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
+global.urlnya = 'https://chat.whatsapp.com/JWVl9J1sIxMG9PwyIMyQN6'
 
 //========= Call Template Button =========//
 global.dtc = 'Add Me'
-global.nmbrnya = '+62 822-5604-8971'
+global.nmbrnya = '+62 838-0290-5703'
 
 
 //============ Proses Bot ============//
